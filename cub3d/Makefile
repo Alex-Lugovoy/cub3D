@@ -2,51 +2,52 @@ NAME 	= cub3D
 
 DIR 	= .
 
-LIST 	=	main.c\
-			search_wall.c\
-			first_hit_wall.c\
-			serch_distanse_to_the_wall.c \
-			draw_wall.c \
-			sort_sprite.c \
-			draw_sprite.c \
-			find_texture_and_check.c \
-			null_struct.c \
-			check_texture.c \
-			ft_lstadd_back.c \
-			ft_lstnew.c \
-			get_next_line.c \
-			get_next_line_utils.c \
-			find_sprite_not_map.c \
-			create_map.c \
-			ft_lstsize.c \
-			ft_strchr.c \
-			find_window.c \
-			ft_atoi.c \
-			find_player.c \
-			find_fc.c \
-			ft_atoi_fc.c \
-			create_color.c \
-			ft_memset.c \
-			screen.c \
-			map_valid.c \
-			ft_strlen.c \
-			len_map.c \
-			hooki.c \
-			goriz_dist.c \
-			count_sprite.c \
-			add_param_sprite.c \
-			press_butt.c \
-			read_file.c \
-			mlx_start.c \
-			ft_strncmp.c \
-			check_two_arguments.c \
-			check_first_argument.c \
-			i_love_sprite.c \
-			loop_hook.c \
-			free_content.c \
-			vert_dist.c \
-			null_images.c \
-			ft_strcmp.c
+LIST 	=	./game/main.c\
+			./draw/search_wall.c\
+			./draw/first_hit_wall.c\
+			./draw/serch_distanse_to_the_wall.c \
+			./draw/draw_wall.c \
+			./draw/sort_sprite.c \
+			./draw/draw_sprite.c \
+			./check/find_texture_and_check.c \
+			./game/null_struct.c \
+			./check/check_texture.c \
+			./game/ft_lstadd_back.c \
+			./game/ft_lstnew.c \
+			./game/get_next_line.c \
+			./game/get_next_line_utils.c \
+			./draw/find_sprite_not_map.c \
+			./game/create_map.c \
+			./game/ft_lstsize.c \
+			./game/ft_strchr.c \
+			./game/find_window.c \
+			./game/ft_atoi.c \
+			./game/find_player.c \
+			./game/find_fc.c \
+			./game/ft_atoi_fc.c \
+			./game/create_color.c \
+			./game/ft_memset.c \
+			./game/screen.c \
+			./check/map_valid.c \
+			./game/ft_strlen.c \
+			./game/len_map.c \
+			./game/hooki.c \
+			./draw/goriz_dist.c \
+			./draw/count_sprite.c \
+			./draw/add_param_sprite.c \
+			./game/press_butt.c \
+			./game/read_file.c \
+			./game/mlx_start.c \
+			./game/ft_strncmp.c \
+			./check/check_two_arguments.c \
+			./check/check_first_argument.c \
+			./draw/i_love_sprite.c \
+			./game/loop_hook.c \
+			./game/free_content.c \
+			./draw/vert_dist.c \
+			./game/null_images.c \
+			./game/ft_strcmp.c
+			./game/ft_strdup.c
 			
 OBJ 	=	$(LIST:.c=.o)
 

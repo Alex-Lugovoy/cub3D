@@ -29,10 +29,10 @@ static int		line_check(char *str)
 static int		cifri(char *str, t_data *img)
 {
 	int			i;
-	int			flag;
+	// int			flag;
 
 	i = 2;
-	flag = 0;
+	// flag = 0;
 	while ((str[i] == ' ' || str[i] == '0') && str[i] != '\0')
 		i++;
 	if (str[i] >= '1' && str[i] <= '9')

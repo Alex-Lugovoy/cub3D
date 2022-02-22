@@ -1,9 +1,9 @@
-NO          ./WALL0.xpm
-SO          ./WALL0.xpm
-EA          ./WALL0.xpm
-WE          ./WALL0.xpm
+NO          ./textures/WALL0.xpm
+SO          ./textures/WALL0.xpm
+EA          ./textures/WALL0.xpm
+WE          ./textures/WALL0.xpm
 
-S ./head.xpm
+S ./textures/head.xpm
 R 1920 1080
 
 F 123,123,123

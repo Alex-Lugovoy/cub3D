@@ -15,12 +15,12 @@
 static int		make_map(t_list *str1, t_data *img, int size)
 {
 	int			i;
-	int			flag;
-	int			j;
+	// int			flag;
+	// int			j;
 
 	i = 0;
-	flag = 0;
-	j = 0;
+	// flag = 0;
+	// j = 0;
 	img->count_line = 0;
 	if (!(img->map = ft_calloc(size + 1, sizeof(char *))))
 		return (-1);
